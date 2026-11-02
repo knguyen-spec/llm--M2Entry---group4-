@@ -1,33 +1,57 @@
 # Our component
 
-*Filled in from L01, and kept current: it is the page you present at the defence.*
+*Filled in from L01 and kept current: it is the page we present at the defence.*
 
 ## The task
 
-What Albert's Marketplace needs, in one paragraph, and who uses the result.
-Say what goes wrong today without it, with a figure if you have one.
+Albert's Marketplace receives customer-support tickets about billing, delivery,
+returns, accounts, sellers and product information. Customer-support agents and
+marketplace operations teams need each ticket to be routed to the appropriate
+team. Without a consistent classifier, routing is performed manually, which can
+create delays and inconsistent categorisation. Our component classifies each
+ticket into exactly one predefined support category. It supports human agents
+and does not replace human review.
 
 ## Which component
 
-Classifier, extraction or retrieval, and why that one fits the task.
+We chose a prompt-driven **classifier**.
+
+The classifier fits the task because each support ticket must receive one
+predefined label. The course provides 120 labelled Albert's Marketplace support
+tickets, creating a clear basis for human-checked evaluation.
+
+The approved labels are:
+
+- `billing`
+- `delivery`
+- `returns_refunds`
+- `account`
+- `seller`
+- `product_information`
+- `other`
+
+A structured-extraction tool would be more directly transferable to
+sustainability evidence workflows. A retrieval layer would be more relevant to
+an enterprise sustainability assistant but would require additional document
+preparation, embeddings, chunking, citation checking and prompt-injection
+testing. These alternatives remain relevant to future projects but are outside
+the scope of this classifier.
 
 ## Inputs and outputs
 
-| | |
+| Field | Description |
 |---|---|
-| Input | |
-| Output | |
-| Data used | the file, its version and its checksum |
+| Input | One Albert's Marketplace customer-support ticket in text form |
+| Output | Exactly one label from the approved classification list |
+| Data used | The course-approved set of 120 labelled support tickets; file name, version and checksum to be recorded after the dataset is obtained |
+| Human oversight | A support agent remains responsible for reviewing and handling the ticket |
+| Failure behaviour | Invalid or uncertain outputs must be flagged for validation or human review |
 
-## Strategies compared
+Example:
 
-Zero-shot, few-shot and chain-of-thought on the same 30 test cases (L04).
+```text
+Input:
+I was charged twice for the same order.
 
-| Strategy | Error rate | Cost per 1,000 calls | Latency | Prompt file |
-|---|---|---|---|---|
-| | | | | |
-
-## Deployment recommendation
-
-Which variant you would deploy, what it costs, what it gets wrong, and what
-would make you change your mind.
+Output:
+billing
