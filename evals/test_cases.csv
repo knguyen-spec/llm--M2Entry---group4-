@@ -1,0 +1,11 @@
+case_id,input,expected,second_acceptable,written_by,checked_by
+T001,"I was charged twice for the same order.","billing","","Kelsy Nguyen","TBD"
+T002,"My parcel was supposed to arrive three days ago. Can you track it?","delivery","","Kelsy Nguyen","TBD"
+T003,"I would like to return the unopened product and receive a refund.","returns_refunds","","Kelsy Nguyen","TBD"
+T004,"I cannot log in because I forgot my password.","account","","Kelsy Nguyen","TBD"
+T005,"The seller sent me the wrong colour.","seller","","Kelsy Nguyen","TBD"
+T006,"What are the ingredients in this face cream?","product_information","","Kelsy Nguyen","TBD"
+T007,"The payment page rejected my card.","billing","","Kelsy Nguyen","TBD"
+T008,"The product arrived damaged and I want my money back.","returns_refunds","","Kelsy Nguyen","TBD"
+T009,"Can I change the email address linked to my account?","account","","Kelsy Nguyen","TBD"
+T010,"Can you tell me whether this product is suitable for sensitive skin?","product_information","other","Kelsy Nguyen","TBD"
