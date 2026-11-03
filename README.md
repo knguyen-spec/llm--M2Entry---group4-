@@ -6,7 +6,7 @@ Integration course (MSA-DATI07-08, Albert School).
 
 Every lesson adds a layer to the previous one. By the end of the course, the
 repository will contain the component our group defends orally: a reproducible,
-evaluated and governed LLM system.
+evaluated and governed LLM system. xxx
 
 Our selected component is a prompt-driven **classifier** that routes customer
 support tickets.
