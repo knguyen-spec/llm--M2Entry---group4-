@@ -25,7 +25,7 @@ The final project will include:
 | Name | GitHub username | Project role |
 |---|---|---|
 | Kelsy Nguyen | knguyen-spec | Project lead and integration owner |
-| Lynn-Aurea Niat | To be confirmed | Data and evaluation lead |
+| Lynn-Aurea Niat | lniat-coder | Data and evaluation lead |
 | Sereine Tawamba | stawamba-commits | Schema and quality lead |
 
 GitHub usernames, repository permissions and GitHub organisational roles will
