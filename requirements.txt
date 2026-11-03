@@ -1,0 +1,5 @@
+# Pinned to the versions the L02 labs ran with. Replace each TODO with the
+# exact version from the course labs repository before the first run.
+anthropic==1.10.0
+pydantic==TODO
+python-dotenv==TODO
