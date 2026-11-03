@@ -26,7 +26,7 @@ The final project will include:
 |---|---|---|
 | Kelsy Nguyen | knguyen-spec | Project lead and integration owner |
 | Lynn-Aurea Niat | To be confirmed | Data and evaluation lead |
-| Sereine Tawamba | To be confirmed | Schema and quality lead |
+| Sereine Tawamba | stawamba-commits | Schema and quality lead |
 
 GitHub usernames, repository permissions and GitHub organisational roles will
 be confirmed when the team members join the repository. Project roles describe
