@@ -1,5 +1,5 @@
-# Pinned to the versions the L02 labs ran with. Replace each TODO with the
-# exact version from the course labs repository before the first run.
+# Versions the L02 labs ran with. anthropic is pinned: an SDK upgrade can
+# change defaults and exception classes, so upgrade on purpose and re-measure.
 anthropic==1.10.0
-pydantic==TODO
-python-dotenv==TODO
+pydantic>=2,<3
+python-dotenv>=1,<2
